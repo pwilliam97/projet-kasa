@@ -1,0 +1,14 @@
+main {
+    padding: 2% 4% 0 4%;
+
+    .home_Main{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width : 640px) {
+    main {
+        padding: 2% 4% 0 4%;
+    }
+}
