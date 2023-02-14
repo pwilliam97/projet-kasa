@@ -11,10 +11,10 @@ import '../styles/Header/Header.css'
 function Header(){
     return (
         <header>
-            <Link to="/projet-kasa"><img src={Logo} alt={Logo} className='logo'/></Link>
+            <Link to="/projet-kasa/"><img src={Logo} alt={Logo} className='logo'/></Link>
             <nav className='nav_header'>
                 <ul className='nav_header_liste'>
-                    <li><Link to="/projet-kasa">Accueil</Link></li>
+                    <li><Link to="/projet-kasa/">Accueil</Link></li>
                     <li><Link to="/apropos">A Propos</Link></li>
                 </ul>   
             </nav>
